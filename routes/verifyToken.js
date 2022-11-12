@@ -12,3 +12,5 @@ module.exports = function (req, res, next) {
     res.status(400).send("Invalid Token.");
   }
 };
+
+// You can add this function as a middleware to protect any provate routes, to check if token is available
